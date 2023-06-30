@@ -1,0 +1,35 @@
+<resources>
+  <string name="app_name">BetMatch</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="table">таблица</string>
+  <string name="tables_underlined"><u>таблицы</u></string>
+  <string name="news">новости</string>
+  <string name="news_underlined"><u>новости</u></string>
+  <string name="statistics">статистика</string>
+  <string name="statistics_underlined"><u>статистика</u></string>
+  <string name="settings">настройки</string>
+  <string name="settings_underlined"><u>настройки</u></string>
+  <string name="notifications">уведомления</string>
+  <string name="dark_theme">черная тема</string>
+  <string name="wallpapers">обои</string>
+  <string name="change">change</string>
+  <string name="russia">Россия</string>
+  <string name="england">Англия</string>
+  <string name="germany">Германия</string>
+
+  <string name="spain">Испания</string>
+  <string name="number">№</string>
+  <string name="team">Команда</string>
+  <string name="games">И</string>
+  <string name="wins">В</string>
+  <string name="draws">Н</string>
+  <string name="loses">П</string>
+  <string name="balls">Мячи</string>
+  <string name="points">О</string>
+  <string name="def">оборона</string>
+  <string name="attack">атака</string>
+  <string name="tournament">Турнир</string>
+  <string name="kicks">Удары з.и.</string>
+  <string name="rating">Рейтинг</string>
+</resources>

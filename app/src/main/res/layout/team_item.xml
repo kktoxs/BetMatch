@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginVertical="2dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingHorizontal="5dp">
+
+  <TextView
+      android:id="@+id/pos"
+      android:layout_width="25dp"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:textColor="@color/gray"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      tools:text="2" />
+
+  <View
+      android:id="@+id/place"
+      android:layout_width="3dp"
+      android:layout_height="match_parent"
+      android:layout_marginEnd="10dp"
+      tools:background="@color/orange" />
+
+  <ImageView
+      android:id="@+id/logo"
+      android:layout_width="25dp"
+      android:layout_height="match_parent"
+      tools:background="@color/orange" />
+
+  <TextView
+      android:id="@+id/team_name"
+      android:layout_width="130dp"
+      android:layout_height="match_parent"
+      android:gravity="center|start"
+      android:paddingStart="10dp"
+      android:textColor="@color/black"
+      android:textSize="15sp"
+      android:textStyle="bold"
+      tools:text="Зенит" />
+
+  <TextView
+      android:id="@+id/games"
+
+      android:layout_width="30dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      tools:text="20" />
+
+  <TextView
+      android:id="@+id/win"
+
+      android:layout_width="30dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      tools:text="14" />
+
+  <TextView
+      android:id="@+id/draw"
+
+      android:layout_width="30dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      tools:text="3" />
+
+  <TextView
+      android:id="@+id/lose"
+
+      android:layout_width="30dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      tools:text="5" />
+
+  <TextView
+      android:id="@+id/balls"
+
+      android:layout_width="50dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      tools:text="43-21" />
+
+  <TextView
+      android:id="@+id/points"
+
+      android:layout_width="20dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      tools:text="20" />
+
+</LinearLayout>

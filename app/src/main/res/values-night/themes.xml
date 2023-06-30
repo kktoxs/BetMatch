@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
+  <style name="Base.Theme.BetMatch" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your light theme here. -->
+    <item name="colorPrimary">@color/background_blue</item>
+    <item name="android:textColor">@color/black</item>
+  </style>
+
+  <style name="Theme.BetMatch" parent="Base.Theme.BetMatch" />
+
+  <style name="MenuButton">
+    <item name="android:background">@drawable/menu_button_background</item>
+    <item name="cornerRadius">20dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_marginVertical" tools:targetApi="o">20dp</item>
+    <item name="android:textSize">50sp</item>
+    <item name="android:fontFamily">@font/robotobolditalic</item>
+  </style>
+
+  <style name="TitleText">
+    <item name="android:textSize">50sp</item>
+    <item name="android:fontFamily">@font/robotobolditalic</item>
+    <item name="android:textAllCaps">true</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="SwitchStyle">
+    <item name="android:textColor">@color/black</item>
+    <item name="android:textSize">30sp</item>
+    <item name="android:fontFamily">@font/robotobolditalic</item>
+    <item name="android:textAllCaps">true</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_marginVertical" tools:targetApi="o">10dp</item>
+    <item name="android:paddingStart">10dp</item>
+    <item name="track">@drawable/custom_track</item>
+    <item name="android:thumb">@drawable/custom_thumb</item>
+  </style>
+</resources>

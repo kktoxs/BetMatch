@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="20dp"
+    tools:background="@drawable/background1"
+    tools:context=".StartFragment">
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/logo" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/table_btn"
+      style="@style/MenuButton"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:text="@string/table" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/news_btn"
+      style="@style/MenuButton"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:text="@string/news" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/stats_btn"
+      style="@style/MenuButton"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:text="@string/statistics" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/settings_btn"
+      style="@style/MenuButton"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:text="@string/settings" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginBottom="20dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+  <ImageView
+      android:id="@+id/news_image"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      tools:background="@color/orange" />
+
+  <TextView
+      android:textColor="@color/black"
+
+      android:id="@+id/news_title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:gravity="center"
+      tools:text="ЦСКА не вышел в еврокубки впервые с 2000 года. Каким был мир тогда" />
+
+  <TextView
+      android:textColor="@color/black"
+
+      android:id="@+id/news_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="10dp"
+      tools:text="В последнем туре РПЛ решалось многое: кто-то боролся за Лигу чемпионов, а кто-то — за право остаться в Премьер-Лиге. ЦСКА имел шансы пробиться в Лигу конференций — новый еврокубковый турнир под эгидой УЕФА. Для этого армейцам нужно было побеждать «Динамо», но с задачей они не справились (2:3).\n\n\nПо итогам сезона ЦСКА довольствовался только шестым местом и в еврокубки не попал. Такого с армейцами не случалось очень давно — 21 год. Вспоминаем, каким был мир и футбол в 2000 году, когда ЦСКА в прошлый раз пролетел мимо Европы." />
+
+  <TextView
+      android:textColor="@color/black"
+
+      android:id="@+id/news_date"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="end"
+      android:layout_marginHorizontal="10dp"
+      android:textStyle="italic"
+      tools:text="17 мая 2021" />
+</LinearLayout>
